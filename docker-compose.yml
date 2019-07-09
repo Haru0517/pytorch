@@ -1,0 +1,12 @@
+version: "3"
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    container_name: pytorch
+    volumes:
+      - ./:/usr/src
+    environment:
+      - "TZ=Japan"
+    tty: true
