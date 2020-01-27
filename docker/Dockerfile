@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM pytorch/pytorch:latest
 
 LABEL version="1.0"
 LABEL maintainer="Yuto Chikazawa <minet6759@gmail.com>"
